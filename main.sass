@@ -1,0 +1,83 @@
+---
+---
+$background-color: #fafafa
+$link-color: #333
+$border-color: #aaa
+$meta-font-color: #999
+$transparent: rgba(0, 0, 0, 0)
+
+$green: #468847
+$red: #d9534f
+$orange: #f0ad4e
+
+body
+  background: $background-color
+  font-size: 17px
+  font-family: Roboto, sans-serif
+  font-weight: 100
+  line-height: 1.7em
+  text-align: center
+
+a
+  color: $link-color
+
+h1
+  font-size: 1.8em
+  font-weight: 100
+  margin-bottom: 0.2em
+
+h2
+  font-size: 1.6em
+  font-weight: 100
+  margin-bottom: 0.2em
+
+h3
+  font-size: 1.5em
+  font-weight: 100
+  margin-bottom: 0.2em
+
+h4
+  font-size: 1.4em
+  font-weight: 100
+  margin-bottom: 0.2em
+
+.container
+  max-width: 500px
+  margin: 40px auto
+
+  p
+    margin-bottom: 0
+    
+.messages
+  list-style-type: none
+  padding: 0
+  margin: 0.2em 0
+
+.message
+  padding: 1em
+  font-size: 1.2em
+
+  .timestamp 
+    display: block
+    font-style: normal
+    font-size: 0.8em
+
+.message-red
+  background-color: lighten($red, 35%) 
+  border-left-color: $red
+
+.message-green
+  background-color: lighten($green, 35%) 
+  border-left-color: $green
+
+.message-orange
+  background-color: lighten($orange, 30%) 
+  border-left-color: $orange
+
+.message-gray
+  background-color: #eeeeee
+  border-left-color: #bbbbbb
+
+@media screen and (min-width: 35.5em)
+  .mobile-only
+    display: block
