@@ -1,0 +1,28 @@
+---
+---
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Status of Frigg CI</title>
+    <style>
+      body {font-family: sans-serif;font-size: 27px; text-align: center;}
+      ul{ list-style-type: none ; max-width: 500px; margin: 40px auto; }
+      .message { padding: 16px; }
+      .message em { font-size: 0.6em; }
+      .message-green { border-bottom: 4px solid green; background: #dff0d8;}
+      .message-orange { border-bottom: 4px solid orange; background: #fcf8f2; }
+      .message-yellow { border-bottom: 4px solid yellow; background: #fdf7f7;}
+    </style>
+  </head>
+  <body>
+    <h2>Status of Frigg CI</h2>
+    <ul>
+      {% for message in site.data.messages %}
+        <li class="message message-{{ message.status }}">
+        {{ message.content }}<br/>
+          <em>{{ message.timestamp }}</em>
+        </li>
+      {% endfor %}
+    </ul>
+  </body>
+</html>
