@@ -1,2 +1,12 @@
+title: Status of Frigg CI
+baseurl: ""
+url: "http://status.frigg.io"
+twitter_username: frigg_io
+github_username:  frigg
+
+markdown: kramdown
+timezone: Europa/Oslo
+encoding: utf-8
+permalink: pretty
 sass:
     style: :compressed
