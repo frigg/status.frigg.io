@@ -1,3 +1,5 @@
+# This will appear on the site in the order as it is
+# listed here, so add new items on top
 - content: Everything up and running
   status: green
   timestamp: 2015-04-09 12:00 +0200
