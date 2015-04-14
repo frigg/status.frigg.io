@@ -1,5 +1,8 @@
 # This will appear on the site in the order as it is
 # listed here, so add new items on top
+- content: We are deploying a new docker infrastructure today. Some builds might be delayed a little bit.
+  status: green
+  timestamp: 2015-04-14 15:40 +0200
 - content: This is a test of rss feed hooks 
   status: green
   timestamp: 2015-04-09 17:40 +0200
